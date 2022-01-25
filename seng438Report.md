@@ -21,10 +21,6 @@ Conversion notes:
 ----->
 
 
-**SENG 438 Assignment 1 Report	**
-
-**Group: (number)**
-
 
 <table>
   <tr>
