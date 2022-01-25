@@ -89,7 +89,7 @@ Conversion notes:
 
 **Introduction**
 
-In this lab, we explored different techniques used to test software. Exploratory testing is an approach to software testing that is often described as simultaneous learning, test design, and execution. It focuses on the discovery and relies on the guidance of the individual tester to uncover defects that are not easily covered in the scope of other tests. On the other hand, manual scripting testing mainly depends on developing a test script and then testing it which is pretty similar to unit testing. We revisited all the bugs in regression testing. We reported resolved and in-progress bugs with this. 
+In this lab, we learnt diffrent testing techniques. Exploratory testing is an approach to software testing that is often described as simultaneous learning, test design, and execution. It focuses on the discovery and relies on the guidance of the individual tester to uncover defects that are not easily covered in the scope of other tests. On the other hand, manual scripting testing mainly depends on developing a test script and then testing it which is pretty similar to unit testing. We revisited all the bugs in regression testing. We reported resolved and in-progress bugs with this. 
 
  
 
