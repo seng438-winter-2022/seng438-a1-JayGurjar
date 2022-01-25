@@ -14,7 +14,7 @@ Using this Markdown file:
 
 Conversion notes:
 
-* Docs to Markdown version 1.0β33
+* Docs to Markdown version 1.0Î²33
 * Mon Jan 24 2022 19:42:08 GMT-0800 (PST)
 * Source doc: SENG 438 Assignment 1 Report
 * Tables are currently converted to HTML tables.
@@ -85,17 +85,14 @@ Conversion notes:
 
 **Introduction**
 
-In this lab, we learnt diffrent testing techniques. Exploratory testing is an approach to software testing that is often described as simultaneous learning, test design, and execution. It focuses on the discovery and relies on the guidance of the individual tester to uncover defects that are not easily covered in the scope of other tests. On the other hand, manual scripting testing mainly depends on developing a test script and then testing it which is pretty similar to unit testing. We revisited all the bugs in regression testing. We reported resolved and in-progress bugs with this. 
+Before this lab we had very little knowledge about testing itself, having only one scenario in a previous course where testing of a java program was carried out. with respect to exploratory testing we knew that it required random investigation of the product to find bugs, adding to this we also knew that our imagination of scenarios was key in this type of testing. Regarding manual scripted testing the name of the testing was self explanatory. The script had to be followed scrictly to discover bugs, and the tests had to determined before the actual testing phase began.
+In this lab, we learnt more about the testing techniques. Exploratory testing is an approach to software testing that is often described as simultaneous learning, test design, and execution. It focuses on the discovery and relies on the guidance of the individual tester to uncover defects that are not easily covered in the scope of other tests. On the other hand, manual scripting testing mainly depends on developing a test script and then testing it which is pretty similar to unit testing. We revisited all the bugs in regression testing. We reported resolved and in-progress bugs with this. 
 
  
 
 **High-level description of the exploratory testing plan**
 
-The initial step was to explore balance inquiry and withdrawal functionalities. Check money markets and other available accounts. Reading the functionality, we thought withdrawal will give errors for the money market as we will extensively test the money market to be buggy with the balance inquiry. Proposed path: log in with card no: 2 and pin: 1234. Then go to balance inquiry and extensively test it. Then test buttons available on the screen to see if they work according to their functionality. Then move forward with testing withdrawal. We will also later the functionalities with card no 1. 
-
-For testing, we decided that one pair of groups should do exploratory testing.
-
- 
+Exploratory testing required investigation and innovation of testcases during execution. The initial step was to explore balance inquiry and withdrawal functionalities. Check money markets and other available accounts. Reading the functionality, we thought withdrawal will give errors for the money market as we will extensively test the money market to be buggy with the balance inquiry. Proposed path: log in with card no: 2 and pin: 1234. Then go to balance inquiry and extensively test it. Then test buttons available on the screen to see if they work according to their functionality. Then move forward with testing withdrawal. We also repeat the same functionality with card no 1 to ensure complete tracking of bugs.
 
 **Comparison of exploratory and manual functional testing**
 
@@ -111,14 +108,13 @@ As soon as a bug report was submitted we had our partner recheck the format of t
 
 **How the pair testing was managed and teamwork/effort was divided**
 
-For pair testing, one partner was sharing their screen and the other was logging the bugs in the software. For exploratory and manual testing one benefit of the partner was discussing bugs and talking about them and ensuring no mistakes were made. Working with a partner provided a different perspective on testing and gave different ideas. 
+For pair testing, we had one partner who was sharing their screen and attempting to run the scripted testcases or an exploratory testcase while the other overlooked the execution of the testcase. After execution one of them logged the bugs in the software. The roles were switched for every testcase to provide both partners handson learning experience with testing. For exploratory and manual testing one benefit of the partner was discussing bugs and talking about them and ensuring no mistakes were made. Working with a partner provided a different perspective on testing and gave different ideas. 
 
- 
 
 **Difficulties encountered, challenges overcome, and lessons learned**
 
-Since there was no explicit format about exploratory testing it was a little difficult to report and keep track of the bugs due to a lack of specific format. We fixed the problem by reporting the bug when we encountered it, without even trying to reproduce it, since that's not the nature of exploratory testing. Also we learned that manual testing is a more organized form of testing and allows for everything to be performed more effectively.
+Since there was no explicit format about exploratory testing it was a bit difficult to report and keep track of the bugs due to a lack of specific format and lack of definite number of testcases. We fixed the problem by reporting the bug when we encountered it, without even trying to reproduce it, since that's not the nature of exploratory testing. Also we learned that manual testing is a more organized form of testing and allows for everything to be performed more effectively, adding to this we learnt that manual scripted testing allows us to replicate the test very easily since the script is documented beforehand.
 
  **Comments/feedback on the lab and lab document itself**
 
-The lab was interesting and we learned a lot about different testing techniques. We would prefer a pdf submission instead as that is what we are more accustomed to.
+The lab was interesting and we learned a lot about different testing techniques and the importance of testing itself, we became aware of the fact that testing is a major component in the success of a work product. We would prefer a pdf submission instead as that is what we are more accustomed to.
